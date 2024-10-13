@@ -1,15 +1,16 @@
-import Navbar from "../Navbar";
+import OpenAccount from "../OpenAccount.jsx";
 import Brokerage from "./Brokerage";
-import Footer from "../Footer";
+import Charges from "./Charges.jsx";
+
 import Hero from "./Hero";
 
 function PricingPage() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Brokerage />
-      <Footer />
+      <OpenAccount />
+      <Charges />
     </>
   );
 }

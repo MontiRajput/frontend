@@ -6,10 +6,8 @@ import Team from "./Team";
 function About() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Team />
-      <Footer />
     </>
   );
 }

@@ -5,18 +5,16 @@ import Pricing from "./Pricing";
 import Stats from "./Stats";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import "./Home.css";
 
 function Home() {
   return (
     <>
-      <h1>Home</h1>
-      <Navbar />
       <Hero />
       <Stats />
       <Pricing />
       <Education />
       <OpenAccount />
-      <Footer />
     </>
   );
 }
